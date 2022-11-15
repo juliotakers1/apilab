@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const DoctorSchema = new mongoose.Schema({
+const OrdenSchema = new mongoose.Schema({
 
 
-    codigo:{
+    numerorder:{
         type: Number,
         required: true
     },
@@ -10,21 +10,21 @@ const DoctorSchema = new mongoose.Schema({
         type: String,
         required: true
       },
-      telefono:{
-        type: Number,
-        required: false
-      },
-      colegiado:{
-        type: Number,
-        required: false
-      },
-      colegiado:{
+      fecha:{
         type: String,
-        required: true
+        required: false
+      },
+      doctor:{
+        type: String,
+        required: false
+      },
+      valor:{
+        type: String,
+        required: false
       }
 
 });
 
-const Doctor = mongoose.model('Doctor',DoctorSchema);
+const Orden = mongoose.model('Orden',OrdenSchema);
  
-module.exports = Doctor;
+module.exports = Orden;
