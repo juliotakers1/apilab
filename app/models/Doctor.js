@@ -15,10 +15,6 @@ const DoctorSchema = new mongoose.Schema({
         required: false
       },
       colegiado:{
-        type: Number,
-        required: false
-      },
-      colegiado:{
         type: String,
         required: true
       }
