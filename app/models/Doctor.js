@@ -3,20 +3,20 @@ const DoctorSchema = new mongoose.Schema({
 
 
     codigo:{
-        type: Number,
-        required: true
+        type: String,
+        required: false
     },
       nombre:{
         type: String,
-        required: true
+        required: false
       },
       telefono:{
-        type: Number,
+        type: String,
         required: false
       },
       colegiado:{
         type: String,
-        required: true
+        required: false
       }
 
 });

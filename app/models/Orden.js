@@ -3,12 +3,12 @@ const OrdenSchema = new mongoose.Schema({
 
 
     numerorder:{
-        type: Number,
-        required: true
+        type: String,
+        required: false
     },
       nombre:{
         type: String,
-        required: true
+        required: false
       },
       fecha:{
         type: String,

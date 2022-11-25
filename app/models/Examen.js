@@ -3,8 +3,8 @@ const ExamenSchema = new mongoose.Schema({
 
 
     codigo:{
-        type: Number,
-        required: true
+        type: String,
+        required: false
     },
     tipo:{
         type: String,
@@ -15,12 +15,12 @@ const ExamenSchema = new mongoose.Schema({
         required: false
     },
     valores:{
-        type: Number,
+        type: String,
         required: false
     },
     dimensional:{
         type: String,
-        required: true
+        required: false
     }
 
 });
