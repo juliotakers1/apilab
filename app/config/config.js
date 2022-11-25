@@ -5,5 +5,5 @@ module.exports = {
         // DB: process.env.DB || 'mongodb://JVASQUEZ:jROBERTO12@localhost:27017/miapp?authSource=admin'
 
 
-    DB: process.env.DB || 'mongodb+srv://JROBERTO:jROBERTO12@cluster0.rlrqi.mongodb.net/labapi?retryWrites=true&w=majority'
+    DB: process.env.DB || 'mongodb+srv://JROBERTO:jROBERTO12@cluster0.uyrpdnz.mongodb.net/labapi?retryWrites=true&w=majority'
 }
