@@ -14,7 +14,7 @@ const Examen = require('./routes/examen');
 const Urologia = require('./routes/urologia');
 const Coprologia = require('./routes/coprologia');
 const Quimica = require('./routes/quimica');
-
+const Paciente = require('./routes/paciente');
 
 
 
@@ -33,7 +33,7 @@ App.use('/examen', Examen);
 App.use('/urologia', Urologia);
 App.use('/coprologia', Coprologia);
 App.use('/quimica', Quimica);
-
+App.use('/paciente', Paciente);
  
 
 module.exports = App;
