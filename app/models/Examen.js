@@ -6,6 +6,10 @@ const ExamenSchema = new mongoose.Schema({
         type: String,
         required: false
     },
+    nombre:{
+        type: String,
+        required: false
+    },
     tipo:{
         type: String,
         required: false
@@ -21,8 +25,19 @@ const ExamenSchema = new mongoose.Schema({
     dimensional:{
         type: String,
         required: false
-    }
-
+    },
+    pnormal:{
+        type: String,
+        required: false
+    },
+    preferencia:{
+        type: String,
+        required: false
+    },
+    pespecial:{
+        type: String,
+        required: false
+    },
 });
 
 const Examen = mongoose.model('Examen',ExamenSchema);
