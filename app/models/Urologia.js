@@ -6,7 +6,7 @@ const UrologiaSchema = new mongoose.Schema({
         type: String,
         required: false
     },
-      nombre:{
+      paciente:{
         type: String,
         required: false
       },
@@ -18,11 +18,11 @@ const UrologiaSchema = new mongoose.Schema({
         type: String,
         required: false
       },
-      valor:{
+      examen:{
         type: String,
         required: false
       },
-      emicroscopico:{
+      valor:{
         type: String,
         required: false
       },
@@ -30,23 +30,11 @@ const UrologiaSchema = new mongoose.Schema({
         type: String,
         required: false
       },
-      aspecto:{
-        type: String,
-        required: false
-      },
       ph:{
         type: String,
         required: false
       },
-      densidad:{
-        type: String,
-        required: false
-      },
-      bioquimica:{
-        type: String,
-        required: false
-      },
-      eritrocitos:{
+      bioquimico:{
         type: String,
         required: false
       },
@@ -54,15 +42,45 @@ const UrologiaSchema = new mongoose.Schema({
         type: String,
         required: false
       },
-      cepiteliales:{
-        type: String,
-        required: false
-      },
       moco:{
         type: String,
         required: false
       },
+      cristales:{
+        type: String,
+        required: false
+      },
+      mbacteriano:{
+        type: String,
+        required: false
+      },
+      aspecto:{
+        type: String,
+        required: false
+      },
+
+      densidad:{
+        type: String,
+        required: false
+      },
+      
+      eritrocitos:{
+        type: String,
+        required: false
+      },
+      cepiteliales:{
+        type: String,
+        required: false
+      },
       bacterias:{
+        type: String,
+        required: false
+      },
+      cilindros:{
+        type: String,
+        required: false
+      },
+      otros:{
         type: String,
         required: false
       },

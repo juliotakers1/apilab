@@ -2,11 +2,11 @@ const mongoose = require('mongoose');
 const QuimicaSchema = new mongoose.Schema({
 
 
-    numerorder:{
+    codigo:{
         type: String,
         required: false
     },
-      nombre:{
+      paciente:{
         type: String,
         required: false
       },
@@ -18,19 +18,11 @@ const QuimicaSchema = new mongoose.Schema({
         type: String,
         required: false
       },
-      valor:{
-        type: String,
-        required: false
-      },
-      detalles:{
-        type: String,
-        required: false
-      },
       examen:{
         type: String,
         required: false
       },
-      tipoexamen:{
+      valor:{
         type: String,
         required: false
       },
