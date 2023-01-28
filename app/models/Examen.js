@@ -14,12 +14,9 @@ const ExamenSchema = new mongoose.Schema({
         type: String,
         required: false
     },
-    descripcion:{
-        type: String,
-        required: false
-    },
+
     valores:{
-        type: String,
+        type: Array,
         required: false
     },
     dimensional:{
